@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ADD8E6;
+    min-height: 80px;
+}
+nav{
+    min-height: 100%;
+    background-color: #DAA520;
+    border: 1px dashed black;
+}
+nav div {
+    min-height: 30px;
+    
+}header .container {
+    align-items: center;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+   
+}
+.flex {
+    display: flex;
+    
+}
+.column{
+    min-width: 200px;
+    text-align: center;
+    border: 1px dashed black;
+    
+    
+}
+.growth{
+    flex-grow: 1;
+}
