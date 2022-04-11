@@ -44,10 +44,16 @@ nav div {
 
 }
 div .pink-square{
+    
     max-width: 80%;
-    min-height: 200px;
+    min-height: 300px;
     background-color: #EE82EE;
     margin: auto;
+    flex-grow: 1;
     
     
+    
+}
+main .container {
+    min-height: 400px;
 }
