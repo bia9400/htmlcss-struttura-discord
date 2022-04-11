@@ -95,9 +95,11 @@ div .green-square {
     justify-content: space-between;
     align-items: center;
     background-color: #7FFFD4;
+    min-height: 60px;
 }
 .hr{
     border-top: 2px solid white;
+    
 }
 footer{
     background-color: #23272A;
@@ -111,4 +113,16 @@ footer .column{
     background-color: #20B2AA;
     border: 1px dashed white;
     min-height: 500px;
+}
+.logo,
+.button {
+    background-color: #B0C2B5;
+    border: 1px dashed black;
+}
+.padding-bottom {
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+.padding-top{
+    padding-top: 2rem;
 }
