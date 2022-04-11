@@ -27,14 +27,18 @@ nav div {
 }
 .flex {
     display: flex;
+    min-height: 100%;
+    
     
 }
 .column{
     min-width: 150px;
     text-align: center;
-    border: 1px dashed black;
-    align-content: center;
+    
     padding: 1rem 1rem;
+}
+header .column{
+    border: 1px dashed black;
 }
 .growth{
     flex-grow: 1;
@@ -56,4 +60,55 @@ div .pink-square{
 }
 main .container {
     min-height: 400px;
+
+}
+main > div {
+    padding: 50px 0 50px 0;
+}
+.background-white{
+    background-color: #FFFFFF;
+}
+.background-grey{
+    background-color: #D3D3D3;
+    
+}
+div .blue-square{
+    background-color: #1E90FF;
+    flex-grow: 2;
+    min-height: 300px;
+}
+div .red-square{
+    background-color: #FFC0CB;
+    flex-grow: 1;
+    min-height: 300px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+div .green-square {
+    background-color: #228B22;
+    min-height: 600px;
+    flex-grow: 1;
+
+}
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7FFFD4;
+}
+.hr{
+    border-top: 2px solid white;
+}
+footer{
+    background-color: #23272A;
+}
+#left-color{
+    background-color: #F08080;
+    flex-grow: 2;
+    border: 1px dashed black;
+}
+footer .column{
+    background-color: #20B2AA;
+    border: 1px dashed white;
+    min-height: 500px;
 }
